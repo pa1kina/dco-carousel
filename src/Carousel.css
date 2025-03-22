@@ -11,8 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    height: 90vh;
+    width: 45vw;
 }
 
 .slide {
@@ -77,4 +76,18 @@
 
 .indicator-inactive {
     opacity: 40%;
+}
+
+@media (min-height: 800px) {
+    .carousel {
+        height: 85vh;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1600px) {
+    .carousel {
+        height: auto;
+        width: 45vw;
+    }
 }
